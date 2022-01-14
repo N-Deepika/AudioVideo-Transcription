@@ -1,0 +1,28 @@
+{
+  "name": "audiovideo-transcription",
+  "version": "1.0.0",
+  "description": "Transcripts for any videos or audios using Deepgram' Speech Recognition API.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N-Deepika/AudioVideo-Transcription.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N-Deepika/AudioVideo-Transcription/issues"
+  },
+  "homepage": "https://github.com/N-Deepika/AudioVideo-Transcription#readme",
+  "dependencies": {
+    "@deepgram/sdk": "^1.2.0",
+    "dotenv": "^11.0.0",
+    "ffmpeg-static": "^4.4.1",
+    "video-downloader": "^1.0.4",
+    "video-to-audio": "^1.0.1",
+    "youtube-mp3-downloader": "^0.7.10"
+  }
+}
