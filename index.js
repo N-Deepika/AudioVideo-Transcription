@@ -1,9 +1,8 @@
-require("dotenv").config();
+
 const fs = require('fs')
 const YoutubeMp3Downloader = require('youtube-mp3-downloader')
 const { Deepgram } = require('@deepgram/sdk')
 const ffmpeg = require('ffmpeg-static')
-
 
 const deepgram = new Deepgram(process.env.DG_KEY)
 const YD = new YoutubeMp3Downloader({
